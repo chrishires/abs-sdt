@@ -1,0 +1,22 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+CLAUDE.md
+.claude/
+
+# Data: too large for git; distributed as a GitHub Release asset
+*.parquet
+*.csv
+*.json
+
+# Blog materials and scratch work
+part1.ipynb
+part1.html
+part1_files/
+part2.ipynb
+images/
+scratch.ipynb
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
