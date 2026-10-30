@@ -51,7 +51,7 @@ Here *d* is the pitch's signed distance from the zone edge, *c* is the player's 
 
 **Every reconstruction is validated for every game** against an independent total MLB reports: the recorded count on each pitch, the next play's outs and runners, the final linescore, the challenge ledger, and the identity of each challenger.
 
-**Pitch location.** Statcast reports where a pitch crosses the *front* of home plate, but ABS rules on where it crosses the *midpoint*, 8.5 in deeper. The pipeline re-projects each pitch to the midpoint using Statcast's constant-acceleration trajectory fit, and pads the zone by the ball's radius, because ABS calls a strike if any part of the ball touches the zone. This classification matches ABS's actual ruling on 99.3% of the season's 10,556 challenged pitches.
+**Pitch location.** Statcast reports where a pitch crosses the *front* of home plate, but ABS rules on where it crosses the *midpoint*, 8.5 in deeper. The pipeline re-projects each pitch to the midpoint using Statcast's constant-acceleration trajectory fit, and pads the zone by the ball's radius, because ABS calls a strike if any part of the ball touches the zone. This classification matches ABS's actual ruling on 99.7% of the season's 10,556 challenged pitches.
 
 ## Repository contents
 
